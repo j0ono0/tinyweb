@@ -24,7 +24,7 @@ install:
   - ln -s `pwd`/tinyweb $MDST/tinyweb
   # compile/install micropython.
   - cd micropython
-  - git checkout 39eef270831323b77445e0458c9357d38e23658a
+  - git checkout v1.11
   - sudo make -C ports/unix axtls install
   - cd ..
 
